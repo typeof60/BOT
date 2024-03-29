@@ -1,0 +1,100 @@
+{
+  "form": {
+    "559984620740@s.whatsapp.net": {
+      "ask": false,
+      "command": "hour",
+      "options": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "id": "Elba Hernandes",
+      "select": 2
+    }
+  },
+  "data": {
+    "Elba Hernandes": {
+      "works": [
+        {
+          "name": "Escova e Chapinha",
+          "time": "01:00",
+          "value": "200"
+        },
+        {
+          "name": "Escova Modelada",
+          "time": "40",
+          "value": "180"
+        },
+        {
+          "name": "Corte",
+          "time": "30",
+          "value": "70"
+        },
+        {
+          "name": "Penteado",
+          "time": "01:30",
+          "value": "200"
+        },
+        {
+          "name": "Mechas",
+          "time": "06:00",
+          "value": "500"
+        },
+        {
+          "name": "Escova Vegana",
+          "time": "02:00",
+          "value": "300"
+        },
+        {
+          "name": "Colocação de Raiz",
+          "time": "01:30",
+          "value": "250"
+        }
+      ],
+      "28/03/24": [
+        {
+          "name": "Typeof",
+          "process": "Escova Modelada",
+          "valor": "180",
+          "start": {
+            "time": 150,
+            "zn": "pm"
+          },
+          "end": {
+            "time": 190,
+            "zn": "pm"
+          }
+        },
+        {
+          "name": "Typeof",
+          "process": "Escova e Chapinha",
+          "valor": "200",
+          "start": {
+            "time": 60,
+            "zn": "pm"
+          },
+          "end": {
+            "time": 120,
+            "zn": "pm"
+          }
+        },
+        {
+          "name": "Elba Hernandes",
+          "process": "Intervalo",
+          "start": {
+            "time": 540,
+            "zn": "am"
+          },
+          "end": {
+            "time": 60,
+            "zn": "pm"
+          }
+        }
+      ]
+    }
+  }
+}
