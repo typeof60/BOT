@@ -22,4 +22,4 @@ const database = ([key, obj], object)  =>  {
 
 const stringTm = (str) => str.match(":") ? ([x, y]= str.split(":"), (x == 1 ? (y == "00" ? `${x} Hora` : `${x} Hora, ${y} Minutos`) : (y == "00" ? `${x} Horas` : `${x} Horas, ${y} Minutos`))) : `${str} Minutos`
                  
-module.exports = { Function, timeSerialize, services, makeTime, database ,stringTm, concatDt };
+module.exports = { makeTime, database ,stringTm };

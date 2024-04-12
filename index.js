@@ -4,7 +4,7 @@ const cp = require("node:child_process");
 const fs = require("node:fs");
 const pn = require("pino");
 const mt = require('moment-timezone');
-const { Function, timeSerialize, services, makeTime, database, stringTm, concatDt } = require("./func");
+const { makeTime, database, stringTm } = require("./func");
 const enem = {};
 
 const store = makeInMemoryStore(pn({ level: "silent" })); store.readFromFile('./baileys_store_multi.json');

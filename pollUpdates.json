@@ -14,6 +14,14 @@
       },
       "id": "Elba Hernandes",
       "select": 2
+    },
+    "556193377842@s.whatsapp.net": {
+      "ask": false,
+      "command": "agenda_1",
+      "options": {
+        "0": "Elba Hernandes"
+      },
+      "id": "Elba Hernandes"
     }
   },
   "data": {
@@ -91,6 +99,46 @@
           },
           "end": {
             "time": 60,
+            "zn": "pm"
+          }
+        }
+      ],
+      "12/04/24": [
+        {
+          "name": "Elba Hernandes",
+          "process": "Intervalo",
+          "start": {
+            "time": 540,
+            "zn": "pm"
+          },
+          "end": {
+            "time": 660,
+            "zn": "pm"
+          }
+        },
+        {
+          "name": "Elba Hernandes",
+          "process": "Escova Vegana",
+          "valor": "300",
+          "start": {
+            "time": 720,
+            "zn": "am"
+          },
+          "end": {
+            "time": 120,
+            "zn": "pm"
+          }
+        },
+        {
+          "name": "Elba Hernandes",
+          "process": "Mechas",
+          "valor": "500",
+          "start": {
+            "time": 120,
+            "zn": "pm"
+          },
+          "end": {
+            "time": 480,
             "zn": "pm"
           }
         }
